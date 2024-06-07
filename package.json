@@ -1,0 +1,20 @@
+{
+  "name": "p3s3_luis_villanueva_27463770",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverd.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
