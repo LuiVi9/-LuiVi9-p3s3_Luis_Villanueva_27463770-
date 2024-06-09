@@ -2,7 +2,7 @@ import { Router } from "express";
 
 const router = Router();
 
-router.get("/src/view/index.ejs", (req, res) => res.render("index"));
+router.get("/", (req, res) => res.render("index"));
 
 router.get("/src/view/Productos.ejs", (req, res) => res.render("Productos"));
 
