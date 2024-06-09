@@ -5,6 +5,7 @@ import { fileURLToPath } from "url";
 import indexRoutes from "./routes/index.js";
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
